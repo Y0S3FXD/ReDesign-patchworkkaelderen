@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #212529;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+.lead {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+aside {
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #f01111;
+}
+
+footer {
+    background-color: #212529;
+}
+
+/* Add more styles based on the specific elements and your desired look */
