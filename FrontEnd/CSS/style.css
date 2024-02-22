@@ -1,28 +1,62 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
+    /* Light grey background */
 }
 
-header {
-    background-color: #212529;
-}
-
-header h1 {
-    margin-bottom: 0;
-}
-
-.lead {
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-aside {
-    padding: 20px;
-    border-radius: 4px;
-    background-color: #f01111;
-}
-
+header,
 footer {
-    background-color: #212529;
+    background-color: #6200EA;
+    /* Deep purple */
+    color: #FFFFFF;
 }
 
-/* Add more styles based on the specific elements and your desired look */
+.nav-pills .nav-link.active,
+.btn-primary {
+    background-color: #018786;
+    /* Teal */
+}
+
+.btn-primary:hover {
+    background-color: #02656B;
+    /* Darker teal */
+}
+
+.nav-link {
+    color: #333333;
+    /* For better contrast */
+}
+
+/* Custom styles for a more Material-like look */
+.card {
+    margin-top: 20px;
+}
+
+.ripple-effect {
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+}
+
+.ripple-effect:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle, #000 10%, transparent 10.01%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: scale(10, 10);
+    opacity: 0;
+    transition: transform .5s, opacity 1s;
+}
+
+.ripple-effect:hover:after {
+    transform: scale(0, 0);
+    opacity: .3;
+    transition: 0s;
+}
