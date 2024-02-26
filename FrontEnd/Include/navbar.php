@@ -13,7 +13,7 @@
                     <a class="nav-link" href="#">Forretning</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="accessories.php">Tilbehør</a>
+                    <a class="nav-link" href="shop.php">Tilbehør</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kørselsvejledning</a>
