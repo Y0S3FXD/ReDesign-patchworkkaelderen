@@ -50,3 +50,5 @@ CREATE TABLE Tilmeldinger (
 -- data for the Tilmeldinger table
 INSERT INTO Tilmeldinger (KursusID, DeltagerNavn, Email, Telefon, BekræftelsesKode, Bekræftet) VALUES (1, 'John Doe', 'johndoe@example.com', '1234567890', 'ABC123', TRUE);
 INSERT INTO Tilmeldinger (KursusID, DeltagerNavn, Email, Telefon, BekræftelsesKode, Bekræftet) VALUES (2, 'Jane Smith', 'janesmith@example.com', '9876543210', 'XYZ789', FALSE);
+INSERT INTO Tilmeldinger (KursusID, DeltagerNavn, Email, Telefon, BekræftelsesKode, Bekræftet) VALUES (2, 'Bob Johnson', 'asdasdasd@asdad.com', '123123123', 'ASD123', TRUE);
+INSERT INTO Tilmeldinger (KursusID, DeltagerNavn, Email, Telefon, BekræftelsesKode, Bekræftet) VALUES (1, 'Bob Johnadasdasdson', 'asdasdasd@asdad.com', '1231sd23123', 'ASD123', TRUE);

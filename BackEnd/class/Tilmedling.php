@@ -1,5 +1,4 @@
 <?php
- require_once 'Database.php';
 
 class Tilmelding
 {
@@ -11,7 +10,7 @@ class Tilmelding
     }
 
     // Tilføjer en ny tilmelding
-    public function CreateTilmelding($fields)
+    public function OpretTilmelding($fields)
     {
         if (!self::$db->insert(self::$table, $fields)) {
             throw new Exception("Unable to create the product.");
@@ -39,9 +38,3 @@ class Tilmelding
         return bin2hex(random_bytes(16)); // Genererer en 32 tegn lang hexadecimal streng
     }
 }
-
-// Eksempel på oprettelse og brug af Tilmelding klassen
-// $db = new Database(); // Antager at Database klassens konstruktør er ændret til public
-// $tilmelding = new Tilmelding($db);
-
-// $tilmelding->tilfoejTilmelding(1, 'John Doe', 'john@example.com', '123456789');

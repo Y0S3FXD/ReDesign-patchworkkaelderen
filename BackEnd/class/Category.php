@@ -2,15 +2,19 @@
 
 class Category
 {
-    private $db;
-    private static $table = 'category';
-
+    private static $db;
+    private static $table = 'categories';
+public static function init()
+    {
+        self::$db = Database::getInstance();
+    }
     public function __construct()
     {
         $this->db = new Database;
     }
-    public function getCategories()
+    public static function getCategories()
     {
-        return $this->db->get(self::$table);
+        $db = self::$db;
+        return $db->get(self::$table);
     }
 }
