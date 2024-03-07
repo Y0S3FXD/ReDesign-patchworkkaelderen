@@ -12,6 +12,9 @@ footer {
     color: #FFFFFF;
 }
 
+.active {
+    color:#018786;
+}
 .image {
     overflow: hidden;
 }

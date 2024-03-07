@@ -11,7 +11,7 @@
             </div>
         </div>
     </div>
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <div class="text-center p-3" style="background-color: rgba(129, 66, 13, 0.5);">
         &copy; 2024 Patchwork Kælderen. Alle retter forbeholdes.    
     </div>
 </footer>

@@ -1,3 +1,7 @@
+<?php
+$page = "index";
+?>
+
 <header class="hero-section">
     <center>
     <div class="row container pt-2">
