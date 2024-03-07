@@ -1,4 +1,21 @@
 <header class="hero-section">
+    <center>
+    <div class="row container pt-2">
+    <!--Store description-->
+    <div class="col-md-6 p-3 text-center pt-5">
+        <h1 class="display-4">Patchwork Kælderen</h1>
+        <p>For dig, der elsker patchwork</p>
+    </div>
+    <!--Image showcase-->
+    <div class="col-md-4 p-5 image">
+        <img src="FrontEnd/Images/showcase_1.jpg">
+    </div>
+  </center>
+</div>
+</header>
+
+<!--
+<header class="hero-section">
     <div class="container text-center py-5">
         <h1 class="display-4">Welcome to Patchwork Kælderen</h1>
         <p class="lead">Your one-stop shop for patchwork and quilting supplies.</p>
@@ -7,7 +24,7 @@
 </header>
 
 <section class="featured-content py-5">
-    <div class="container">
+    <div class="container" background="FrontEnd/Images/patchwork_background.jpg">
         <div class="row">
             <div class="col-md-4 mb-3">
                 <div class="card">

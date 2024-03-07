@@ -1,7 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FAFAFA;
-    /* Light grey background */
+    background-image: url(".FrontEnd/Images/patchwork-background.jpg");
+    /* Light grey background */ 
 }
 
 header,
@@ -9,6 +10,10 @@ footer {
     background-color: #6200EA;
     /* Deep purple */
     color: #FFFFFF;
+}
+
+.image {
+    overflow: hidden;
 }
 
 .nav-pills .nav-link.active,
@@ -26,7 +31,6 @@ footer {
     color: #333333;
     /* For better contrast */
 }
-
 /* Custom styles for a more Material-like look */
 .card {
     margin-top: 20px;
