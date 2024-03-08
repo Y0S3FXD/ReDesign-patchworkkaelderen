@@ -1,9 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FAFAFA;
-    background-image: url(".FrontEnd/Images/patchwork-background.jpg");
     /* Light grey background */ 
 }
+
 
 header,
 footer {

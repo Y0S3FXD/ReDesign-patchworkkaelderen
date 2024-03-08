@@ -1,6 +1,8 @@
 <?php
-$page = "index";
+require_once FRONTEND_INCLUDE . 'background-style.php';
 ?>
+
+
 
 <header class="hero-section">
     <center>

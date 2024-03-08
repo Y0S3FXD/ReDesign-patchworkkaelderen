@@ -1,4 +1,4 @@
-<div class=".container-fluid pt-2 border">
+<div class=".container-fluid pt-2 border" style="background-color: white">
 <div>
     <center><a href="index.php"><img src="FrontEnd/Images/Logo.png" alt="Patchwork Kælderen" style="width:20%; height:20%" alt="Patchwork Kælderen"></a></center>
   </div> 
