@@ -88,7 +88,6 @@ require_once FRONTEND_INCLUDE . 'header.php';
             <td>tirsdag</td>
             <td>kl. 10-13</td>
         </tr>
-
     </table>
   </center>
 </div>
