@@ -7,13 +7,89 @@ require_once FRONTEND_INCLUDE . 'header.php';
     <div class="row container pt-2">
     <!--Store description-->
     <div class="col-md-6 p-3 text-center pt-5">
-        <h1 class="display-4">Patchwork Kælderen</h1>
+        <h1 class="display-4">Sy og Quiltecafé</h1>
         <p>For dig, der elsker patchwork</p>
     </div>
-    <!--Image showcase-->
-    <div class="col-md-4 p-5 image">
-        <img src="FrontEnd/Images/showcase_1.jpg">
-    </div>
+    <!--Table showcase-->
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        </style>
+    <table style="width:50%">
+        <tr>
+            <th>Datoer</th>
+            <th>Dage</th>
+            <th>Tidspunkter</th>
+        </tr>
+        <tr>
+            <td>2. januar</td>
+            <td>tirsdag</td>
+            <td>kl. 10-13</td>
+        </tr>
+        <tr>
+            <td>4. januar</td>
+            <td>torsdag</td>
+            <td>kl. 14-17</td>
+        </tr>
+        <tr>
+            <td>16. januar</td>
+            <td>tirsdag</td>
+            <td>kl. 10-13</td>
+        </tr>
+        <tr>
+            <td>18. januar</td>
+            <td>torsdag</td>
+            <td>kl. 14-17</td>
+        </tr>
+        <tr>
+            <td>30. januar</td>
+            <td>tirsdag</td>
+            <td>kl. 10-13</td>
+        </tr>
+        <tr>
+            <td>1. februar</td>
+            <td>torsdag</td>
+            <td>kl. 14-17</td>
+        </tr>
+        <tr>
+            <td>13. februar</td>
+            <td>tirsdag</td>
+            <td>kl. 10-13</td>
+        </tr>
+        <tr>
+            <td>15. februar</td>
+            <td>torsdag</td>
+            <td>kl. 14-17</td>
+        </tr>
+        <tr>
+            <td>27. februar</td>
+            <td>tirsdag</td>
+            <td>kl. 10-13</td>
+        </tr>
+        <tr>
+            <td>29. februar</td>
+            <td>torsdag</td>
+            <td>kl. 14-17</td>
+        </tr>
+        <tr>
+            <td>12. marts</td>
+            <td>tirsdag</td>
+            <td>kl. 10-13</td>
+        </tr>
+        <tr>
+            <td>14. marts</td>
+            <td>torsdag</td>
+            <td>kl. 14-17</td>
+        </tr>
+        <tr>
+            <td>26. marts</td>
+            <td>tirsdag</td>
+            <td>kl. 10-13</td>
+        </tr>
+
+    </table>
   </center>
 </div>
 </header>
