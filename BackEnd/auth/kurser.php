@@ -5,9 +5,6 @@ Category::init();
 $alle_kursus = kurser::getKurser();
 $alle_kategorier = Category::getCategories();
 
-var_dump($alle_kursus);  
-
-
 
 
 

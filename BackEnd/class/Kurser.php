@@ -20,7 +20,7 @@ class kurser
     public static function getKursus($id)
     {
         $db = self::$db;
-        return $db->get(self::$table, ['id' => $id]);
+        return $db->get(self::$table, ['KursusID' => $id]);
 
     }
     public static function opretKursus($fields)
@@ -29,9 +29,9 @@ class kurser
             throw new Exception("Unable to create the product.");
         }
     }
-    public static function opdaterKursus($fields, $id)
+    public static function opdaterKursus($fields, $id_name, $id)
     {
-        if (!self::$db->update(self::$table, $fields, $id)) {
+        if (!self::$db->update(self::$table, $fields,$id_name, $id)) {
             throw new Exception("Unable to update the product.");
         }
     }

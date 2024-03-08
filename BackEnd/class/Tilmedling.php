@@ -2,13 +2,22 @@
 
 class Tilmelding
 {
-    private $db;
+    private static $db;
     private static $table = 'Tilmeldinger';
+
+    public static function init()
+    {
+        self::$db = Database::getInstance();
+    }
     public function __construct()
     {
         $this->db = new Database;
     }
-
+    public static function getTilmeldinger()
+    {
+        $db = self::$db;
+        return $db->get(self::$table);
+    }
     // Tilføjer en ny tilmelding
     public function OpretTilmelding($fields)
     {

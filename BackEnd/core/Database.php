@@ -70,7 +70,7 @@ class Database
         $stmt = $this->query($sql, $where);
         return $stmt->fetchAll();
     }
-    public function update($table, $data, $id)
+    public function update($table, $data, $id_name, $id)
     {
         $columns = '';
         foreach ($data as $key => $value) {
@@ -78,7 +78,7 @@ class Database
         }
         $columns = rtrim($columns, ', ');
 
-        $sql = "UPDATE {$table} SET {$columns} WHERE id = {$id}";
+        $sql = "UPDATE {$table} SET {$columns} WHERE {$id_name} = {$id}";
         $stmt = $this->query($sql, $data);
         return $stmt->rowCount();
     }
