@@ -6,17 +6,24 @@ $page = "index";
     <center>
     <div class="row container pt-2">
     <!--Store description-->
-    <div class="col-md-6 p-3 text-center pt-5">
+    <div class="col-md-6 text-center pt-5" style="background-color: white">
         <h1 class="display-4">Patchwork Kælderen</h1>
-        <p>For dig, der elsker patchwork</p>
+        <p> For  år siden startede jeg min forretning. I starten var der et begrænset udvalg af stoffer og tilbehør. 
+        I dag er der b.la. over 1000 stoffer at vælge imellem, hjælpeværktøjer af alle slags, maskinbroderitråd, sytråd   
+        mønstre og skabeloner, Janome symaskiner
+        broderi
+        <br> Kun et besøg i forretningen kan give dig et reelt indtryk.
+        <br> Der er god plads i forretningen til at modtage større eller mindre grupper. </p>
     </div>
-    <!--Image showcase-->
-    <div class="col-md-4 p-5 image">
+    <!--Image showcase-->   
+    <div class="col-md-4 image" style="background-color: white">
         <img src="FrontEnd/Images/showcase_1.jpg">
     </div>
   </center>
 </div>
 </header>
+
+
 
 <!--
 <header class="hero-section">

@@ -34,6 +34,17 @@ footer {
     color: #333333;
     /* For better contrast */
 }
+
+.center-align {
+    text-align: center;
+    display: flex;
+}
+
+.right-align {
+    position: absolute;
+    right: 0;
+    text-align: right;  
+}
 /* Custom styles for a more Material-like look */
 .card {
     margin-top: 20px;

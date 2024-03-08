@@ -23,10 +23,12 @@
     <li class="nav-item">
       <a class="nav-link" href="appointment.php">Bestil tid</a>
     </li>
+    <!-- Facebook link; breaks centering
     <li class="nav-item">
      <a class="nav-link" href="https://www.facebook.com/groups/717465808343118/">
       <img src="FrontEnd/Images/facebook.png" width="5%" style="float:right"></a>
     </li>
+-->
   </ul>
 </nav>
 <br>
