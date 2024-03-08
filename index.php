@@ -1,4 +1,5 @@
 <?php
+$name = 'home';
 require_once 'start.php'; // Adjust the path to the actual location of start.php if necessary
 require_once FRONTEND_INCLUDE . 'header.php';
 require_once FRONTEND_INCLUDE . 'background-style.php';
@@ -8,21 +9,25 @@ require_once FRONTEND_INCLUDE . 'background-style.php';
     <center>
     <div class="row container pt-2">
     <!--Store description-->
-    <div class="col-md-6 text-center pt-5" style="background-color: white">
-        <h1 class="display-4">Patchwork Kælderen</h1>
-        <p> For  år siden startede jeg min forretning. I starten var der et begrænset udvalg af stoffer og tilbehør. 
-        I dag er der b.la. over 1000 stoffer at vælge imellem, hjælpeværktøjer af alle slags, maskinbroderitråd, sytråd   
-        mønstre og skabeloner, Janome symaskiner
-        broderi
-        <br> Kun et besøg i forretningen kan give dig et reelt indtryk.
-        <br> Der er god plads i forretningen til at modtage større eller mindre grupper. </p>
+        <div class="col-md-6 text-center pt-5" style="background-color: white">
+            <br><br><h1>Patchwork Kælderen</h1>
+            <p><span>For  år siden startede jeg min forretning. I starten var der et begrænset udvalg af stoffer og tilbehør. 
+            I dag er der b.la. over 1000 stoffer at vælge imellem, hjælpeværktøjer af alle slags, maskinbroderitråd, sytråd   
+            mønstre og skabeloner, Janome symaskiner
+            broderi
+            <br> Kun et besøg i forretningen kan give dig et reelt indtryk.
+            <br> Der er god plads i forretningen til at modtage større eller mindre grupper. </p>
+            <p>Butikken har umiddelbart lukket om lørdagen, men du kan bestille tid ved at klikke på knappen nedenfor.</p></span>
+            <a class="btn btn-primary" href="appointment.php" role="button">Bestil tid</a>
+            
+        </div>
+        <!--Image showcase-->   
+        <div class="col-md-6 image" style="background-color: white">
+            <img src="FrontEnd/Images/showcase_1.jpg">
+        </div>
     </div>
-    <!--Image showcase-->   
-    <div class="col-md-4 image" style="background-color: white">
-        <img src="FrontEnd/Images/showcase_1.jpg">
-    </div>
-  </center>
-</div>
+    <br>
+    </center>
 </header>
 
 <?php

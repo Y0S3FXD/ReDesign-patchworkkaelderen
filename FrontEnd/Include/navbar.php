@@ -4,6 +4,7 @@
   </div> 
 <nav class="navbar navbar-expand-sm bg-light justify-content-center">
   <hr>
+  <font size="+2">
   <ul class="navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="index.php">Hjem</a>
@@ -28,8 +29,21 @@
      <a class="nav-link" href="https://www.facebook.com/groups/717465808343118/">
       <img src="FrontEnd/Images/facebook.png" width="5%" style="float:right"></a>
     </li>
+
+    ##
 -->
   </ul>
 </nav>
 <br>
 </div>
+</font>
+
+<?php
+  /*     
+  <?php if($page=='home'){echo 'active';} ?>
+  <?php if($page=='products'){echo 'active';}
+  <?php if($page=='products'){echo 'active';} ?>">
+  <?php if($page=='cafe'){echo 'active';} ?>
+  <?php if($page=='quilting'){echo 'active';} ?>
+  <?php if($page=='appointment'){echo 'active';} ?>
+  */

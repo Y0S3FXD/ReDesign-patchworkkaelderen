@@ -13,3 +13,4 @@
 
 <body>
     <?php include 'FrontEnd/Include/navbar.php'; ?>
+    <br>

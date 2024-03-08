@@ -3,7 +3,8 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                 <h5>Patchwork Kælderen</h5>
-                <p>6000 Kolding</p>
+                <p>Læssøegade 47, 6000 Kolding
+                <br><a href="https://shorturl.at/HJKMW">Find vej</a></p>
             </div>
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                 <h5>Kontakt os</h5>
@@ -12,6 +13,6 @@
         </div>
     </div>
     <div class="text-center p-3" style="background-color: rgba(129, 66, 13, 0.5);">
-        &copy; 2024 Patchwork Kælderen. Alle retter forbeholdes.    
+        &copy; 2024 Patchwork Kælderen. Alle rettigheder forbeholdes.    
     </div>
 </footer>
