@@ -10,6 +10,14 @@ $page = "index";
         <h1 class="display-4">Patchwork Kælderen</h1>
         <p>For dig, der elsker patchwork</p>
     </div>
+    <style>
+        body {
+            background-image: url('FrontEnd/Images/patchwork_background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        </style>
     <!--Image showcase-->
     <div class="col-md-4 p-5 image">
         <img src="FrontEnd/Images/showcase_1.jpg">
