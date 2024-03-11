@@ -8,7 +8,8 @@ require_once FRONTEND_INCLUDE . 'header.php';
     <!--Store description-->
     <div class="col-md-6 p-3 text-center pt-5">
         <h1 class="display-4">Sy og Quiltecafé</h1>
-        <p>For dig, der elsker patchwork</p>
+        <p>Sy og quiltecafé har open i ulige uger og starter i uge 1. <br> Prisen er 50 kr. pr kop kafe og egen kop skal medbringes.
+        </p>
     </div>
     <!--Table showcase-->
     <style>
