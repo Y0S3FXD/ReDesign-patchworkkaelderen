@@ -12,6 +12,7 @@ if (isset($_POST['TilmedKursus'])) {
         ];
         Tilmelding::OpretTilmelding($fields);
         header('Location: admin.php');
+        exit;
     } catch (\Throwable $th) {
         echo $th->getMessage(); 
     }

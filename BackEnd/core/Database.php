@@ -61,13 +61,17 @@ class Database
         $stmt = $this->query($sql, [$id]);
         return $stmt->rowCount();
     }
-    public function get( $table, $where = [] )
+    public function get($table, $where = [])
     {
         $sql = "SELECT * FROM {$table}";
-        if ( !empty($where) ) {
-            $sql .= " WHERE " . key($where) . " = ?";
+        if (!empty($where)) {
+            $column = key($where);
+            $value = $where[$column];
+            $sql .= " WHERE " . $column . " = ?";
+            $stmt = $this->query($sql, [$value]); // Pass value in an array
+        } else {
+            $stmt = $this->query($sql); // No conditions, pass the SQL directly
         }
-        $stmt = $this->query($sql, $where);
         return $stmt->fetchAll();
     }
     public function update($table, $data, $id_name, $id)
