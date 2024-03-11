@@ -24,7 +24,7 @@
                     <td><input type="date" name="SlutDato" value="<?php echo $kursus->SlutDato; ?>"></td>
                     <td><input type="number" name="MaxDeltagere" value="<?php echo $kursus->MaxDeltagere; ?>"></td>
                     <td><input type="number" name="LedigePladser" value="<?php echo $kursus->LedigePladser; ?>"></td>
-                    <td><input type="submit" value="Opdater"></td>
+                    <td><input type="submit" name="UpdateKursus" value="Opdater"></td>
                 </form>
             </tr>
         <?php endforeach; ?>
@@ -46,15 +46,21 @@
     <h2>Tilmed En Person</h2>
     <form action="" method="post">
         <label for="Navn">Navn</label>
-        <input type="text" name="Navn" id="Navn">
+        <input type="text" name="Navn" id="Navn" required>
         <label for="Email">Email</label>
-        <input type="text" name="Email" id="Email">
+        <input type="text" name="Email" id="Email" required>
         <label for="Telefon">Telefon</label>
-        <input type="text" name="Telefon" id="Telefon">
-        <label for="KursusID">Kursus ID</label>
-        <input type="text" name="KursusID" id="KursusID">
-        <input type="submit" name="submit" value="Tilmeld">
+        <input type="text" name="Telefon" id="Telefon" required>
+        <label for="KursusID">Kursus Navn</label>
+        <select id="KursusID" name="KursusID" required>
+            <?php foreach ($alle_kursus as $s) : ?>
+                <option value=<?php echo $s->KursusID; ?>>
+                    <?php echo $s->KursusNavn; ?>
+                </option>
+            <?php endforeach; ?>
+        </select>
+        <input type="submit" name="TilmedKursus" value="Tilmeld">
     </form>
-</body>
+    </body>
 
-</html>
+    </html>
