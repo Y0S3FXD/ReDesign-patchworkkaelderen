@@ -29,18 +29,13 @@
             if (!self::$db->insert(self::$table, $fields)) {
                 throw new Exception("Unable to create the product.");
             }
+       
         }
         public static function opdaterKursus($fields, $id_name, $id)
         {
-            $affectedRows = self::$db->update(self::$table, $fields, $id_name, $id);
-
-            // Check if any row was actually updated
-            if ($affectedRows > 0) {
-                throw new Exception("The kursus has been updated successfully.");
-            } else {
-                // If no rows were affected, it means the data was already up to date or the kursus does not exist
-                throw new Exception("No updates were necessary or the kursus does not exist.");
-            }
+            if (!self::$db->update(self::$table, $fields, $id_name, $id)) {
+                throw new Exception("Unable to update the product.");
+            }          
         }
         public static function sletKursus($id)
         {

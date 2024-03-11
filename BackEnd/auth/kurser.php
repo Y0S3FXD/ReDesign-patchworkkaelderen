@@ -8,6 +8,7 @@ if (isset($_POST['UpdateKursus'])) {
     try {
         $currentKursusData = kurser::getKursus($_POST['KursusID']);
         print_r($currentKursusData);
+        echo 'Kursus zzzz.';    
         $currentData = (array) $currentKursusData;
 
         $update_data = [
@@ -32,8 +33,11 @@ if (isset($_POST['UpdateKursus'])) {
         if ($changesDetected) {
             kurser::opdaterKursus($update_data, 'KursusID', $_POST['KursusID']);
             $_SESSION['success_message'] = 'Kursus has been successfully updated.';
+            echo 'Kursus 12313123.';
+            print_r($update_data);
         } else {
             $_SESSION['info_message'] = 'No changes detected, no update necessary.';
+            echo 'Kursus 12313123.';
         }
 
         header('Location: admin.php');
