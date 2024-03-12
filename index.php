@@ -23,8 +23,46 @@ require_once FRONTEND_INCLUDE . 'background-style.php';
         </div>
         <!--Image showcase-->   
         <div class="col-md-6 image" style="background-color: white">
-            <img src="FrontEnd/Images/showcase_1.jpg">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+             <div class="carousel-item active">
+                <img src="FrontEnd/Images/showcase_1.jpg" class="d-block w-100" alt="...">
+            </div>
+           <div class="carousel-item">
+             <img src="FrontEnd/Images/showcase_2.jpg" class="d-block w-100" alt="...">
+          </div>
+        <div class="carousel-item">
+            <img src="FrontEnd/Images/showcase_3.jpg" class="d-block w-100" alt="...">
         </div>
+        <div class="carousel-item">
+            <img src="FrontEnd/Images/showcase_4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="FrontEnd/Images/showcase_5.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="FrontEnd/Images/showcase_6.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="FrontEnd/Images/showcase_7.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="FrontEnd/Images/showcase_8.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="FrontEnd/Images/showcase_9.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="FrontEnd/Images/showcase_10.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </a>
+    </div>
     </div>
     <br>
     </center>
