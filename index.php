@@ -22,7 +22,7 @@ require_once FRONTEND_INCLUDE . 'background-style.php';
             
         </div>
         <!--Image showcase-->   
-        <div class="col-md-6 image" style="background-color: white">
+        <div class="col-md-6" style="background-color: white">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
              <div class="carousel-item active">
@@ -64,9 +64,9 @@ require_once FRONTEND_INCLUDE . 'background-style.php';
   </a>
     </div>
     </div>
-    <br>
     </center>
 </header>
+<br>
 
 <?php
 require_once FRONTEND_INCLUDE . 'footer.php';

@@ -6,7 +6,7 @@
 
 <header class="hero-section">
     <center>
-    <div class="row container pt-2">
+    <div class="row container pt-2" style="background-color: white";>
     <!--Store description-->
     <div class="col-md-6 p-3 text-center pt-5">
         <h1 class="display-4">Sy og Quiltecafé</h1>
@@ -22,9 +22,9 @@
         </style>
     <table style="width:50%">
         <tr>
-            <th>Datoer</th>
-            <th>Dage</th>
-            <th>Tidspunkter</th>
+            <th>Dato</th>
+            <th>Dag</th>
+            <th>Tidspunkt</th>
         </tr>
         <tr>
             <td>2. januar</td>
@@ -94,6 +94,7 @@
     </table>
   </center>
 </div>
+<br>
 </header>
 
 

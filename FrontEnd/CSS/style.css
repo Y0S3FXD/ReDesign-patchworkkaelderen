@@ -19,6 +19,11 @@ footer {
     overflow: hidden;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .nav-pills .nav-link.active,
 .btn-primary {
     background-color: black;
