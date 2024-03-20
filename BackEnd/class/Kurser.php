@@ -33,9 +33,7 @@
         }
         public static function opdaterKursus($fields, $id_name, $id)
         {
-            if (!self::$db->update(self::$table, $fields, $id_name, $id)) {
-                throw new Exception("Unable to update the product.");
-            }          
+            return self::$db->update(self::$table, $fields, $id_name, $id);
         }
         public static function sletKursus($id)
         {

@@ -3,8 +3,10 @@
 require_once 'BackEnd/core/init.php';
 kurser::init();
 Tilmelding::init();
-
-// Update kursus
-
-// Registering to the kursus
+if (isset($_GET['message'])) {
+    if ($_GET['message'] == 'updateSuccess') {
+        echo "<div class='alert'>Kursus has been successfully updated!</div>";
+    }
+    // Add more conditions as necessary for different messages
+}
 

@@ -33,13 +33,17 @@
     <h2>Produkter</h2>
     <table border="1"> <!-- Tilføjet border for at gøre tabellinjerne synlige -->
         <tr>
-            <th>Kategori ID</th>
-            <th>Navn</th>
+            <th>KategoriNavn</th>
+            <th>Produkt Navn</th>
+            <th>Pris</th>
+            <th>img</th>
         </tr>
-        <?php foreach ($alle_kategorier as $c) : ?>
+        <?php foreach ($results as $c) : ?>
             <tr>
-                <td><?php echo $c->id; ?></td>
-                <td><?php echo $c->name; ?></td>
+                <td><?php echo $c->category_name ?></td>
+                <td><?php echo $c->product_name; ?></td>
+                <td><?php echo $c->price; ?></td>
+                <td><img src="<?php echo $c->image_url; ?>" alt="Product Image"></td>
             </tr>
         <?php endforeach; ?>
     </table>

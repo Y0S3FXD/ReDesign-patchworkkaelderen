@@ -17,4 +17,9 @@ public static function init()
         $db = self::$db;
         return $db->get(self::$table);
     }
+    public static function getCategory($id)
+    {
+        $db = self::$db;
+        return $db->get(self::$table, $id);
+    }
 }
